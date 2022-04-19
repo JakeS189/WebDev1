@@ -20,9 +20,64 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <style></style>
-  </head>
+    <style>#banner{
+        border: 5px outset red;
+        background-color: lightblue;
+        text-align: center;
+    }
+    div#face {
+    width: 80vw;
+    height: 30vw;
+    max-width: 800px;
+    max-height: 300px;
+    margin: 0 auto;
+    position: relative;
+    background: rgb(71, 194, 10);
+    margin-top: 2rem;
+}
 
+div#face, div#face * {
+    border-radius: 50%;
+}
+
+.eye {
+    width: 40%;
+    height: 40%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+}
+
+.left.eye {
+    left: 5%;
+}
+
+.right.eye {
+    right: 5%;
+}
+
+.pupil {
+    background: #000;
+    width: 40%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    transform-origin: bottom;
+}
+
+#mouth {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    height: 10%;
+    border: 1vw solid transparent;
+    border-radius: 50%;
+    top: 50%;
+    border-bottom-color: #000;
+}
+    </style>
+  </head>
+<time>Time: 9:49 AM(Maybe)</time>
   <body>
     <main class="wideMargin">
       <!-- Your 1st Heading-->
@@ -61,8 +116,18 @@
         </abbr>
         <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
       </div>
-      <div id="banner"></div>
-      <div id="face"></div>
+      <div id="banner">ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</div>
+     <var>Ham sandwiches?</var>
+      <div id="face"> <div class="left eye">
+        <div class="pupil">
+        </div>
+   </div>
+   <div class="right eye">
+        <div class="pupil">
+        </div>
+   </div>
+   <div id="mouth">
+   </div></div>
     </main>
 
     <footer>
