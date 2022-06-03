@@ -9,14 +9,25 @@ else {
     $temp = "C";
 }
 
-if ($temp > '55'){
-    public $color;
-}
-else {
-    $temp = "C";
-}
-function set_color($red) {
-    $this->color = $red;
+
+
+
+
+if ($temp > '55')
+
+
+function()  #set_color($red) {};
+
+
+{return $color = #red;
+};
+
+else;
+function()  {
+    $temp = "F";
+};
+function set_color($blue) {
+    $color = $blue;
 };
 
 $googleApiUrl = "http://api.openweathermap.org/data/2.5/weather?id=" . $cityId . "&lang=en&units=" . $units . "&APPID=" . $apiKey;
@@ -76,6 +87,8 @@ span.min-temperature {
 .time {
     line-height: 25px;
 }
+
+
 </style>
 
 </head>
